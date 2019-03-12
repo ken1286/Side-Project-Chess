@@ -119,8 +119,34 @@ header nav a:hover{
 	min-width: 250px;
 	max-width: 300px;
 	padding: 10px;
+	background-color: palegreen;
 }
 
 .mc button {
   margin-top: 10px;
+}
+
+/* How to play - chessboard */
+
+.howtoplay {
+	padding-top: 100px;
+}
+
+div.chessboard {
+  display:flex;
+  flex-flow: row wrap;
+  width: 610px;
+	height: 610px;
+	margin: 0 auto;
+	border: 5px solid black;
+}
+div .black {
+  width: 75px;
+  height: 75px;
+  background-color:gray;
+}
+div .white {
+	width: 75px;
+	height: 75px;
+  background-color:white;
 }
