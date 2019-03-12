@@ -140,13 +140,21 @@ div.chessboard {
 	margin: 0 auto;
 	border: 5px solid black;
 }
+
 div .black {
   width: 75px;
   height: 75px;
-  background-color:gray;
+	background-color:gray;
+	padding-top: 8px;
+	font-size: 65px;
+	text-align: center;
 }
+
 div .white {
 	width: 75px;
 	height: 75px;
-  background-color:white;
+	background-color:white;
+	padding-top: 8px;
+	font-size: 65px;
+	text-align: center;
 }
